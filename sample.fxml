@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1828.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="H" alignment="TOP_CENTER" layoutX="167.0" layoutY="215.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632 #ae7632; -fx-cursor: hand;" text="1&#10;H &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Li" alignment="TOP_CENTER" layoutX="166.0" layoutY="279.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #d06831; -fx-cursor: hand;" text="3&#10;Li &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Na" alignment="TOP_CENTER" layoutX="167.0" layoutY="345.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #d06831; -fx-cursor: hand;" text="11&#10;Na&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="K" alignment="TOP_CENTER" layoutX="167.0" layoutY="411.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #d06831; -fx-cursor: hand;" text="19&#10;K&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Rb" alignment="TOP_CENTER" layoutX="167.0" layoutY="474.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #d06831; -fx-cursor: hand;" text="37&#10;Rb &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Cs" alignment="TOP_CENTER" layoutX="166.0" layoutY="537.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #d06831; -fx-cursor: hand;" text="55&#10;Cs&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Fr" alignment="TOP_CENTER" layoutX="167.0" layoutY="601.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #d06831; -fx-cursor: hand;" text="87&#10;Fr&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Be" alignment="TOP_CENTER" layoutX="231.0" layoutY="279.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #639052; -fx-cursor: hand;" text="4&#10;Be &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Mg" alignment="TOP_CENTER" layoutX="231.0" layoutY="345.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #639052; -fx-cursor: hand;" text="12&#10;Mg&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ca" alignment="TOP_CENTER" layoutX="231.0" layoutY="411.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #639052; -fx-cursor: hand;" text="20&#10;Ca&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Sr" alignment="TOP_CENTER" layoutX="231.0" layoutY="474.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #639052; -fx-cursor: hand;" text="38&#10;Sr&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ba" alignment="TOP_CENTER" layoutX="231.0" layoutY="537.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #639052; -fx-cursor: hand;" text="56&#10;Ba&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ra" alignment="TOP_CENTER" layoutX="231.0" layoutY="601.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #639052; -fx-cursor: hand;" text="88&#10;Ra&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Lr" alignment="TOP_CENTER" layoutX="323.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="103&#10;Lr&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Lu" alignment="TOP_CENTER" layoutX="323.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="71&#10;Lu &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Y" alignment="TOP_CENTER" layoutX="323.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="39&#10;Y &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Zr" alignment="TOP_CENTER" layoutX="385.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="40&#10;Zr &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Hf" alignment="TOP_CENTER" layoutX="385.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="72&#10;Hf &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Rf" alignment="TOP_CENTER" layoutX="385.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="104&#10;Rf&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Db" alignment="TOP_CENTER" layoutX="447.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="105&#10;Db&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ta" alignment="TOP_CENTER" layoutX="447.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="73&#10;Ta &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Nb" alignment="TOP_CENTER" layoutX="447.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="41&#10;Nb &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Sc" alignment="TOP_CENTER" layoutX="323.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="21&#10;Sc &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="W" alignment="TOP_CENTER" layoutX="509.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="74&#10;W &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Sg" alignment="TOP_CENTER" layoutX="509.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="106&#10;Sg &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ti" alignment="TOP_CENTER" layoutX="385.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="22&#10;Ti &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Mo" alignment="TOP_CENTER" layoutX="509.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="42&#10;Mo &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Cr" alignment="TOP_CENTER" layoutX="509.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="24&#10;Cr &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="V" alignment="TOP_CENTER" layoutX="447.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="23&#10;V &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Bh" alignment="TOP_CENTER" layoutX="572.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="107&#10;Bh&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Re" alignment="TOP_CENTER" layoutX="572.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="75&#10;Re &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Tc" alignment="TOP_CENTER" layoutX="572.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="43&#10;Tc &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ru" alignment="TOP_CENTER" layoutX="634.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="44&#10;Ru &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Os" alignment="TOP_CENTER" layoutX="634.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="76&#10;Os &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Hs" alignment="TOP_CENTER" layoutX="634.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="108&#10;Hs&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Mt" alignment="TOP_CENTER" layoutX="696.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hanf;" text="109&#10;Mt&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ir" alignment="TOP_CENTER" layoutX="696.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="77&#10;Ir &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Rh" alignment="TOP_CENTER" layoutX="696.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="45&#10;Rh &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Mn" alignment="TOP_CENTER" layoutX="572.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="25&#10;Mn &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Pt" alignment="TOP_CENTER" layoutX="758.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="78&#10;Pt &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ds" alignment="TOP_CENTER" layoutX="758.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="110&#10;Ds &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Fe" alignment="TOP_CENTER" layoutX="634.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="26&#10;Fe &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Pd" alignment="TOP_CENTER" layoutX="758.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="46&#10;Pd &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ni" alignment="TOP_CENTER" layoutX="758.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="28&#10;Ni &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Co" alignment="TOP_CENTER" layoutX="696.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="27&#10;Co &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Rg" alignment="TOP_CENTER" layoutX="820.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="111&#10;Rg &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Au" alignment="TOP_CENTER" layoutX="820.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #534d4d; -fx-cursor: hand;" text="79&#10;Au &#10;" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ag" alignment="TOP_CENTER" layoutX="820.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="47&#10;Ag &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Hg" alignment="TOP_CENTER" layoutX="882.0" layoutY="540.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="80&#10;Hg &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Uub" alignment="TOP_CENTER" layoutX="882.0" layoutY="603.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="112&#10;Uub &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Cd" alignment="TOP_CENTER" layoutX="882.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="48&#10;Cd &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Zn" alignment="TOP_CENTER" layoutX="882.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="30&#10;Zn &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Cu" alignment="TOP_CENTER" layoutX="820.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #5c6fd0; -fx-cursor: hand;" text="29&#10;Cu &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="In" alignment="TOP_CENTER" layoutX="944.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="49&#10;In&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ga" alignment="TOP_CENTER" layoutX="944.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="31&#10;Ga&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Al" alignment="TOP_CENTER" layoutX="944.0" layoutY="351.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="13&#10;Al&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Si" alignment="TOP_CENTER" layoutX="1006.0" layoutY="351.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="14&#10;Si&#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ge" alignment="TOP_CENTER" layoutX="1006.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="32&#10;Ge &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Sn" alignment="TOP_CENTER" layoutX="1006.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="50&#10;Sn&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Sb" alignment="TOP_CENTER" layoutX="1068.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="51&#10;Sb&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="As" alignment="TOP_CENTER" layoutX="1068.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="33&#10;As &#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="P" alignment="TOP_CENTER" layoutX="1068.0" layoutY="351.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="15&#10; P&#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="B" alignment="TOP_CENTER" layoutX="944.0" layoutY="288.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="5&#10;B &#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Se" alignment="TOP_CENTER" layoutX="1130.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="34&#10;Se&#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Te" alignment="TOP_CENTER" layoutX="1130.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="52&#10;Te &#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="C" alignment="TOP_CENTER" layoutX="1007.0" layoutY="288.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="6&#10;C &#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="S" alignment="TOP_CENTER" layoutX="1130.0" layoutY="352.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="16&#10;S &#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="O" alignment="TOP_CENTER" layoutX="1130.0" layoutY="288.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="8&#10;O" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="N" alignment="TOP_CENTER" layoutX="1068.0" layoutY="288.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #ae7632; -fx-cursor: hand;" text="7&#10; N&#10;" textAlignment="CENTER" textFill="#363636">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="I" alignment="TOP_CENTER" layoutX="1192.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #b54d4d; -fx-cursor: hand;" text="53&#10;I&#10;" textAlignment="CENTER" textFill="#2f2e2e">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Br" alignment="TOP_CENTER" layoutX="1192.0" layoutY="414.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #b54d4d; -fx-cursor: hand;" text="35&#10;Br &#10;" textAlignment="CENTER" textFill="#2f2e2e">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Cl" alignment="TOP_CENTER" layoutX="1192.0" layoutY="351.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #b54d4d; -fx-cursor: hand;" text="17&#10;Cl&#10;" textAlignment="CENTER" textFill="#2f2e2e">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ar" alignment="TOP_CENTER" layoutX="1255.0" layoutY="352.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #6b3f63; -fx-cursor: hand;" text="18&#10;Ar &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Kr" alignment="TOP_CENTER" layoutX="1255.0" layoutY="415.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #6b3f63; -fx-cursor: hand;" text="36&#10;Kr &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Xe" alignment="TOP_CENTER" layoutX="1255.0" layoutY="477.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #6b3f63; -fx-cursor: hand;" text="54&#10;Xe&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="F" alignment="TOP_CENTER" layoutX="1192.0" layoutY="288.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #b54d4d; -fx-cursor: hand;" text="9&#10;F &#10;" textAlignment="CENTER" textFill="#2f2e2e">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ne" alignment="TOP_CENTER" layoutX="1255.0" layoutY="288.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #6b3f63; -fx-cursor: hand;" text="10&#10;Ne&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Uut" alignment="TOP_CENTER" layoutX="944.0" layoutY="604.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="113&#10;Uut&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Tl" alignment="TOP_CENTER" layoutX="944.0" layoutY="541.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="81&#10;Tl &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Pb" alignment="TOP_CENTER" layoutX="1006.0" layoutY="541.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="82&#10;Pb&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Uuq" alignment="TOP_CENTER" layoutX="1006.0" layoutY="604.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="114&#10;Uuq&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Uup" alignment="TOP_CENTER" layoutX="1068.0" layoutY="604.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="115&#10;Uup&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Bi" alignment="TOP_CENTER" layoutX="1068.0" layoutY="541.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="83&#10;Bi &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Po" alignment="TOP_CENTER" layoutX="1130.0" layoutY="541.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="84&#10;Po&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Uuh" alignment="TOP_CENTER" layoutX="1130.0" layoutY="604.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #3f7263; -fx-cursor: hand;" text="116&#10;Uuh&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="At" alignment="TOP_CENTER" layoutX="1192.0" layoutY="541.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #b54d4d; -fx-cursor: hand;" text="85&#10;At &#10;" textAlignment="CENTER" textFill="#2f2e2e">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Rn" alignment="TOP_CENTER" layoutX="1255.0" layoutY="541.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #6b3f63; -fx-cursor: hand;" text="86&#10;Rn &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="He" alignment="TOP_CENTER" layoutX="1255.0" layoutY="220.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #6b3f63; -fx-cursor: hand;" text="2&#10;He &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Label layoutX="187.0" layoutY="184.0" text="IA" />
+        <Label layoutX="241.0" layoutY="249.0" text="IIA" />
+        <Label layoutX="333.0" layoutY="381.0" text="IIIB" />
+        <Label layoutX="395.0" layoutY="381.0" text="IVB" />
+        <Label layoutX="457.0" layoutY="381.0" text="VB" />
+        <Label layoutX="520.0" layoutY="381.0" text="VIB" />
+        <Label layoutX="582.0" layoutY="381.0" text="VIIB" />
+        <Label layoutX="647.0" layoutY="381.0" prefHeight="21.0" prefWidth="161.0" text="              VIIIB" />
+        <Label layoutX="830.0" layoutY="381.0" text="IB" />
+        <Label layoutX="892.0" layoutY="381.0" text="IIB" />
+        <Label layoutX="954.0" layoutY="254.0" text="IIIA" />
+        <Label layoutX="1018.0" layoutY="255.0" text="IVA" />
+        <Label layoutX="1079.0" layoutY="255.0" text="VA" />
+        <Label layoutX="1141.0" layoutY="255.0" text="VIA" />
+        <Label layoutX="1204.0" layoutY="255.0" text="VIIA" />
+        <Label layoutX="1264.0" layoutY="184.0" text="VIIIA" />
+        <Button layoutX="939.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="15.0" style="-fx-background-color: #d06831;" />
+        <Label fx:id="Alkali_metals" layoutX="971.0" layoutY="14.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="94.0" style="-fx-cursor: hand;" text="Alkali metals">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button layoutX="1069.0" layoutY="14.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #639052;" />
+        <Label fx:id="Alkaline_earth_metals" layoutX="1106.0" layoutY="14.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="169.0" style="-fx-cursor: hand;" text="Alkaline earth metals">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button layoutX="1069.0" layoutY="58.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #5c6fd0;" />
+        <Label fx:id="Transition_metals" layoutX="1099.0" layoutY="58.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="121.0" style="-fx-cursor: hand;" text="Transition metals">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button layoutX="940.0" layoutY="57.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #3f7263;" />
+        <Label fx:id="Other_metals" layoutX="970.0" layoutY="58.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="94.0" style="-fx-cursor: hand;" text="Other metals">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button layoutX="939.0" layoutY="98.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #ae7632;" />
+        <Button layoutX="1069.0" layoutY="98.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #b54d4d;" />
+        <Label fx:id="Halogens" layoutX="1106.0" layoutY="98.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="94.0" style="-fx-cursor: hand;" text="Halogens">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button layoutX="939.0" layoutY="143.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #6b3f63;" />
+        <Label fx:id="Noble_gases" layoutX="971.0" layoutY="143.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="94.0" style="-fx-cursor: hand;" text="Noble gases">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label fx:id="Nonmetals" layoutX="971.0" layoutY="98.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="94.0" style="-fx-cursor: hand;" text="Nonmetals">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button fx:id="Ac" alignment="TOP_CENTER" layoutX="389.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="89&#10;Ac&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="La" alignment="TOP_CENTER" layoutX="389.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="57&#10;La &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ce" alignment="TOP_CENTER" layoutX="451.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info3" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="58&#10;Ce &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Th" alignment="TOP_CENTER" layoutX="451.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="90&#10;Th&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Pa" alignment="TOP_CENTER" layoutX="513.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="91&#10;Pa&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Pr" alignment="TOP_CENTER" layoutX="513.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="59&#10;Pr &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Nd" alignment="TOP_CENTER" layoutX="575.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="60&#10;Nd&#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="U" alignment="TOP_CENTER" layoutX="575.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="92&#10;U &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Np" alignment="TOP_CENTER" layoutX="638.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="93&#10;Np&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Pm" alignment="TOP_CENTER" layoutX="638.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="61&#10;Pm &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Sm" alignment="TOP_CENTER" layoutX="700.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="62&#10;Sm &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Pu" alignment="TOP_CENTER" layoutX="700.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="94&#10;Pu&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Am" alignment="TOP_CENTER" layoutX="762.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="95&#10;Am&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Eu" alignment="TOP_CENTER" layoutX="762.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="63&#10;Eu&#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Gd" alignment="TOP_CENTER" layoutX="824.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="64&#10;Gd &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Cm" alignment="TOP_CENTER" layoutX="824.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="96&#10;Cm &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Bk" alignment="TOP_CENTER" layoutX="886.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="97&#10;Bk &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Tb" alignment="TOP_CENTER" layoutX="886.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="65&#10;Tb &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Dy" alignment="TOP_CENTER" layoutX="948.0" layoutY="728.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="66&#10;Dy &#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Cf" alignment="TOP_CENTER" layoutX="948.0" layoutY="791.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="98&#10;Cf &#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Es" alignment="TOP_CENTER" layoutX="1010.0" layoutY="792.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="99&#10;Es&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Ho" alignment="TOP_CENTER" layoutX="1010.0" layoutY="729.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="67&#10;Ho&#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Er" alignment="TOP_CENTER" layoutX="1072.0" layoutY="729.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="68&#10;Er&#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Fm" alignment="TOP_CENTER" layoutX="1072.0" layoutY="792.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="100&#10;Fm&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Md" alignment="TOP_CENTER" layoutX="1134.0" layoutY="792.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="101&#10;Md&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Tm" alignment="TOP_CENTER" layoutX="1134.0" layoutY="729.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="69&#10;Tm&#10;" textAlignment="CENTER" textFill="#141414">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="Yb" alignment="TOP_CENTER" layoutX="1196.0" layoutY="729.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #dac55d; -fx-cursor: hand;" text="70&#10;Yb&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="No" alignment="TOP_CENTER" layoutX="1196.0" layoutY="792.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#info" onMouseEntered="#info3" prefHeight="57.0" prefWidth="55.0" style="-fx-background-color: #c5dd9f; -fx-cursor: hand;" text="102&#10;No&#10;" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Line endX="80.0" layoutX="728.0" layoutY="408.0" startX="-87.0" strokeMiterLimit="8.0" />
+        <Button layoutX="940.0" layoutY="190.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #c5dd9f;" />
+        <Label fx:id="Actinide_series" layoutX="972.0" layoutY="190.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="107.0" style="-fx-cursor: hand;" text="Actinide series">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button layoutX="1071.0" layoutY="143.0" mnemonicParsing="false" prefHeight="6.0" prefWidth="13.0" style="-fx-background-color: #dac55d;" />
+        <Label fx:id="Lanthanide_series" layoutX="1103.0" layoutY="143.0" onMouseClicked="#info2" onMouseEntered="#info4" prefHeight="31.0" prefWidth="121.0" style="-fx-cursor: hand;" text="Lanthanide series">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Separator layoutX="1370.0" layoutY="14.0" orientation="VERTICAL" prefHeight="874.0" prefWidth="18.0" />
+      <HBox layoutX="413.0" layoutY="109.0" prefHeight="67.0" prefWidth="413.0" spacing="40.0" style="-fx-background-color: #89a17b;">
+         <children>
+            <JFXTextField fx:id="seratxt" labelFloat="true" prefHeight="25.0" prefWidth="288.0" promptText="Search here">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></JFXTextField>
+            <JFXButton buttonType="RAISED" onAction="#searchh" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #54ab54; -fx-cursor: hand;" text="Search">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <padding>
+            <Insets bottom="20.0" top="20.0" />
+         </padding>
+      </HBox>
+      <Label fx:id="info_label" layoutX="413.0" layoutY="11.0" prefHeight="43.0" prefWidth="413.0" text="Click on any of the elements to get more info">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="db_chk" layoutX="4.0" layoutY="8.0" prefHeight="31.0" prefWidth="142.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info0" layoutX="1397.0" layoutY="17.0" prefHeight="31.0" prefWidth="311.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info2" layoutX="1397.0" layoutY="87.0" prefHeight="149.0" prefWidth="421.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info1" layoutX="1397.0" layoutY="53.0" prefHeight="31.0" prefWidth="311.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info3" layoutX="1397.0" layoutY="273.0" prefHeight="31.0" prefWidth="361.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info4" layoutX="1397.0" layoutY="346.0" prefHeight="31.0" prefWidth="311.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info5" layoutX="1397.0" layoutY="388.0" prefHeight="31.0" prefWidth="311.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info6" layoutX="1397.0" layoutY="443.0" prefHeight="113.0" prefWidth="429.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="info7" layoutX="1397.0" layoutY="583.0" prefHeight="101.0" prefWidth="429.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="62.0" prefHeight="17.0" prefWidth="121.0" text="Simulate Reaction??" />
+      <Label layoutX="131.0" layoutY="60.0" onMouseClicked="#simulaterxn" prefHeight="17.0" prefWidth="75.0" style="-fx-cursor: hand; -fx-background-color: #a3c2c2;" text="Click Here" />
+      <Label fx:id="errsearch" layoutX="447.0" layoutY="209.0" prefHeight="25.0" prefWidth="330.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
